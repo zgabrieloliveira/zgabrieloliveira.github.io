@@ -10,21 +10,20 @@
 ############################
 
 # Name of website
-title: My website
+title: Gabriel Oliveira
 
 # Your name to show in the footer
-author: Some Person
+author: Gabriel Oliveira
 
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  About Me: "index"
+  Projects: "projects"
+  # You can add more links here later, e.g.:
+  # Research: "research"
 
 ################
 # --- Logo --- #
@@ -32,7 +31,8 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-icon.png"
+# I changed this to pull directly from your GitHub profile
+avatar: "https://github.com/zgabrieloliveira.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
@@ -50,17 +50,17 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
-  rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: "@daattali"
-  whatsapp: 15551212
+  email: "zgabrieloliveir4@gmail.com"
+  rss: false  # remove this line if you don't want to show an RSS link at the bottom
+  # facebook: deanattali
+  github: zgabrieloliveira
+  # twitter: daattali
+  # patreon: DeanAttali
+  # youtube: "@daattali"
+  # whatsapp: 15551212
 #  medium: yourname
 #  reddit: yourname or r/yoursubreddit
-#  linkedin: daattali
+  linkedin: zgabrieloliveira
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -85,8 +85,8 @@ social-network-links:
 #  strava: youruserid
 
 # If you want your website to generate an RSS feed, provide a description
-# The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
+# The URL for the feed will be https://<your-website>/feed.xml
+rss-description: Software Engineer Portfolio - Gabriel Oliveira
 
 ###########################
 # --- General options --- #
@@ -102,7 +102,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+url-pretty: "Gabriel Oliveira"
 
 # Add the website title to the title of every page
 title-on-all-pages: true
@@ -128,7 +128,7 @@ edit_page_button: true
 navbar-var-length: false
 
 # The keywords to associate with your website, for SEO purposes
-#keywords: "my,list,of,keywords"
+keywords: "software engineer, backend, java, .net, distributed systems, redis, kafka, portfolio"
 
 ######################################
 # --- Colours / background image --- #
@@ -223,8 +223,8 @@ footer-hover-col: "#0085A1"
 # not to BeautifulJekyll.
 #staticman:
 #  repository : # GitHub username/repository eg. "daattali/beautiful-jekyll"
-#  branch     : master # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
-#  endpoint   : # URL of your deployment, with a trailing slash eg. "https://<your-api>/v3/entry/github/"
+#  branch      : master # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
+#  endpoint    : # URL of your deployment, with a trailing slash eg. "https://<your-api>/v3/entry/github/"
 #  reCaptcha:   # (optional, set these parameters in `staticman.yml` as well)
 #    siteKey  : # You need to apply for a site key on Google
 #    secret   : # Encrypt your password by going to https://<your-own-api>/v3/encrypt/<your-site-secret>
@@ -260,7 +260,7 @@ date_format: "%B %-d, %Y"
 #################################################################################
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Toronto"
+timezone: "America/Sao_Paulo"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
@@ -302,4 +302,3 @@ plugins:
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
-

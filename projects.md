@@ -4,7 +4,7 @@ title: Projects
 subtitle: Engineering & Technical Portfolio
 ---
 
-Here are some of the complex engineering problems I have solved recently.
+Here are some of what I've been working lately.
 
 ### 💳 [Idempotent Payment Gateway](https://github.com/zgabrieloliveira/idempotent-payment-gateway)
 Resilient financial API designed to handle network failures and retries.

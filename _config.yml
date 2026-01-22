@@ -121,7 +121,7 @@ feed_show_excerpt: true
 feed_show_tags: true
 
 # Add a search button to the navbar
-post_search: true
+post_search: false
 
 # Add a button in the footer to edit the current page. Only works if your website is hosted on GitHub
 edit_page_button: false
@@ -140,17 +140,17 @@ keywords: "software engineer, backend, java, .net, distributed systems, redis, k
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-page-col: "#FFFFFF"
-text-col: "#404040"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
-footer-hover-col: "#0085A1"
+page-col: "#121212"
+text-col: "#E0E0E0"
+link-col: "#82B1FF"
+hover-col: "#448AFF"
+navbar-col: "#1E1E1E"
+navbar-text-col: "#FFFFFF"
+navbar-border-col: "#333333"
+footer-col: "#1E1E1E"
+footer-text-col: "#AAAAAA"
+footer-link-col: "#FFFFFF"
+footer-hover-col: "#82B1FF"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour

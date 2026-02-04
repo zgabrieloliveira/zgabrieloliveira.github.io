@@ -13,7 +13,7 @@ Resilient financial API designed to handle network failures and retries.
 
 ---
 
-### 📡 [Event-Driven Webhook Dispatcher](https://github.com/zgabrieloliveira/event-driven-webhook-dispatcher)
+### 📡 [Event-Driven Webhook Dispatcher](https://github.com/zgabrieloliveira/eda-webhook-dispatcher)
 Fault-tolerant webhook delivery pipeline utilizing Event-Driven Architecture.
 - **Tech:** Apache Kafka, Resilience4j (Circuit Breaker & Retry), Docker.
 - **Highlight:** Ensures eventual delivery and system stability even during third-party service outages.
